@@ -1,0 +1,16 @@
+<h2>NBA Teams</h2>
+
+<div *ngFor="let player of players">
+
+    <h3>
+         {{ player.firstName }} {{ player.lastName }}
+    </h3>
+
+
+    <ul>
+        <li> playersId: {{player.playerId}}</li>
+        <li> teamId: {{player.teamId}}</li>
+    </ul>
+
+
+</div>
